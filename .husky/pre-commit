@@ -1,3 +1,10 @@
+# yarn add -D husky
+# yarn husky install
+
+# cấp quyền 
+# ls -la .husky/pre-commit
+# chmod +x .husky/pre-commit
+
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
